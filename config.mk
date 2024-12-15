@@ -417,6 +417,27 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GesturalNavigationHideIME
 
+# Progress Bar Themes
+PRODUCT_PACKAGES += \
+    PGB_BlockyThumb \
+    PGB_MinimalThumb \
+    PGB_OutlineThumb \
+    PGB_Shishu
+
+# Notification Themes
+PRODUCT_PACKAGES += \
+    NotifCyberPunk \
+    NotifDuoline \
+    NotifIOS \
+    NotifLayers
+
+# Power Menu Themes
+PRODUCT_PACKAGES += \
+    PowerCyberPunk \
+    PowerDuoline \
+    PowerIOS \
+    PowerLayers
+
 # Lawnchair
 ifeq ($(strip $(TARGET_PREBUILT_LAWNCHAIR_LAUNCHER)),true)
 PRODUCT_PACKAGES += \
